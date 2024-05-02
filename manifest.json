@@ -1,0 +1,11 @@
+{
+	"id": "prompt-mixer-gemini-bigquery-manager-connector",
+	"name": "BigQuery Manager Gemini Connector",
+	"version": "1.0.0",
+	"minAppVersion": "0.1.0",
+	"description": "BigQuery Manager Gemini Connector",
+	"author": "Prompt Mixer",
+	"authorUrl": "",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}

@@ -1,0 +1,38 @@
+{
+  "name": "prompt-mixer-gemini-bigquery-manager-connector",
+  "version": "1.0.0",
+  "description": "BigQuery Manager Gemini Connector",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PromptMixerDev/prompt-mixer-gemini-connector.git"
+  },
+  "keywords": [
+    "PromptMixer",
+    "Gemini",
+    "API",
+    "Connector",
+    "Prompt Engineering"
+  ],
+  "author": "Prompt Mixer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PromptMixerDev/prompt-mixer-gemini-connector/issues"
+  },
+  "homepage": "https://github.com/PromptMixerDev/prompt-mixer-gemini-connector#readme",
+  "dependencies": {
+    "@google-cloud/bigquery": "^7.6.1",
+    "@google/generative-ai": "^0.7.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  }
+}
