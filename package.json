@@ -1,7 +1,7 @@
 {
   "name": "prompt-mixer-gemini-bigquery-manager-connector",
   "version": "1.0.0",
-  "description": "BigQuery Manager Gemini Connector",
+  "description": "This connector allows you to access Gemini's AI API from within Prompt Mixer and also enables direct interaction with BigQuery using natural language processing.",
   "main": "main.js",
   "type": "module",
   "scripts": {
@@ -18,7 +18,8 @@
     "Gemini",
     "API",
     "Connector",
-    "Prompt Engineering"
+    "Prompt Engineering",
+    "BigQuery"
   ],
   "author": "Prompt Mixer",
   "license": "MIT",

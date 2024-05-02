@@ -35,12 +35,28 @@ export const config = {
   ],
 
   settings: [
-    { id: "API_KEY", name: "API Key", value: "", type: "string" },
-    { id: "PATH_TO_JSON_KEY", name: "PATH TO JSON KEY", value: "", type: "string" },
-    { id: "PROJECT_ID", name: "PROJECT_ID", value: "", type: "string" }
-],
+    {
+      id: "API_KEY",
+      name: "API Key",
+      value: "",
+      type: "string",
+    },
+    {
+      id: "PATH_TO_JSON_KEY",
+      name: "PATH TO JSON KEY",
+      value: "",
+      type: "string",
+    },
+    {
+      id: "PROJECT_ID",
+      name: "PROJECT_ID",
+      value: "",
+      type: "string",
+    },
+  ],
   author: "Prompt Mixer",
-  description: "BigQuery Manager Gemini Connector",
+  description:
+    "This connector allows you to access Gemini's AI API from within Prompt Mixer and also enables direct interaction with BigQuery using natural language processing.",
   iconBase64:
     "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTggMTQuNUM3LjQ2MTQ1IDExLjE0MzMgNC42NzE4MyA4LjUwODYzIDEuMTE3NjUgOEM0LjY3MTgzIDcuNDkxMzcgNy40NjE0NSA0Ljg1NjczIDggMS41QzguNTM4NTUgNC44NTY3MyAxMS4zMjgyIDcuNDkxMzcgMTQuODgyNCA4QzExLjMyODQgOC41MDg2MyA4LjUzODc2IDExLjE0MzMgOCAxNC41WiIgZmlsbD0iIzZGNzM3QSIvPgo8L3N2Zz4K",
 };
