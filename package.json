@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/PromptMixerDev/prompt-mixer-gemini-connector#readme",
   "dependencies": {
-    "@google-cloud/bigquery": "^8.1.0",
+    "@google-cloud/bigquery": "^8.1.1",
     "@google/generative-ai": "^0.21.0"
   },
   "devDependencies": {
